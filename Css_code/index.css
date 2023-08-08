@@ -1,0 +1,70 @@
+:root{
+    --primary: #0c91dfe1;
+    --dark: #00a2ffee;
+    --darken: #4744f3;
+    --light: #0c0c0c;
+}
+
+html{
+    height: 100%;
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans', 'sans-serif';
+}
+
+body{
+    background: url('Clock_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--light);
+}
+
+.Container{
+    text-align: center;
+}
+
+.Container h2{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 6.5rem;
+    font-weight: 500;
+    font-style: italic;
+    margin: 9rem auto 0 auto;
+}
+
+.Pages{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem 1 rem;
+    margin: 5rem auto 15rem auto;
+}
+
+.Container button{
+    appearance: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+
+    color: var(--light);
+    font-size: 1.5rem;
+    font-weight: bold;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    height: 5rem;
+    width: 15rem;
+    border-radius: 2rem;
+    border: 3px solid var(--darken);
+    
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: var(--primary);
+}
