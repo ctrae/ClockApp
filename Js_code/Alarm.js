@@ -4,7 +4,7 @@ selectMenu = document.querySelectorAll("select"),
 setAlarmBtn = document.getElementById("setAlarm");
 
 let alarmTime, isAlarmSet = false,
-ringtone = new Audio("..ringtone.mp3");
+ringtone = new Audio("../ringtone.mp3");
 
 for (let i = 12; i > 0; i--){
     i = i < 10 ? "0" + i : i;
