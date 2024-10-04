@@ -46,8 +46,8 @@ setInterval(() => {
     currentTime.innerText = `${h}:${m}:${s} ${ampm}`;
 
     if (alarmTime == `${h}:${m} ${ampm}`){
-        ringtone.play();
         ringtone.loop = true;
+        ringtone.play();
 
     }
 
